@@ -28,7 +28,7 @@ There will then be an alert letting the user know that their password has been g
 
 ![Password generated alert](assets/alert.png)
 
-After clicking 'OK' on the alert, the generated randmo password will be displayed in the text box.
+After clicking 'OK' on the alert, the generated random password will be displayed in the text box.
 
 ![Generated password being displayed](assets/pw-generated.png)
 

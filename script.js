@@ -98,14 +98,15 @@ function generatePassword() {
       }
       if (i === 2) {
         if (arrayCriteria[2]) {
-          testPassword += chars.numbersChar[Math.floor(Math.random() * chars.numbersChar.length)]
+          testPassword += chars.symbolsChar[Math.floor(Math.random() * chars.symbolsChar.length)]
         }
       }
       if (i === 3) {
         if (arrayCriteria[3]) {
-          testPassword += chars.symbolsChar[Math.floor(Math.random() * chars.symbolsChar.length)]
+          testPassword += chars.numbersChar[Math.floor(Math.random() * chars.numbersChar.length)]
         }
       }
+
     }
     
     // Adds however many random places are needed in front of arrayCriteria to fulfill the desired password length
